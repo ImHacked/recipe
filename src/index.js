@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import cors from "cors"
+
+
+(cors()) // Use this after the variable declaration
 
 ReactDOM.render(
   <React.StrictMode>
